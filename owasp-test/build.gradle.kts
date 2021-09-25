@@ -26,7 +26,7 @@ dependencies {
     implementation("org.springdoc:springdoc-openapi-webmvc-core:1.5.7")
 //    // TODO spring securityを有効にしたら使う
     implementation("org.springdoc:springdoc-openapi-security:1.5.10")
-    implementation("org.springdoc:springdoc-openapi-kotlin:1.5.7")
+    implementation("org.springdoc:springdoc-openapi-kotlin:1.5.10")
 
     implementation("org.springframework.boot:spring-boot-starter-security")
 }
