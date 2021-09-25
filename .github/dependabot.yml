@@ -6,3 +6,9 @@ updates:
     directory: "/spring-error-page"
     schedule:
       interval: "daily"
+
+  # GitHub アクションの依存関係を維持する
+  - package-ecosystem: "gradle"
+    directory: "/owasp-test"
+    schedule:
+      interval: "daily"
