@@ -23,7 +23,7 @@ dependencies {
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 
     implementation("org.springdoc:springdoc-openapi-ui:1.5.10")
-    implementation("org.springdoc:springdoc-openapi-webmvc-core:1.5.10")
+    implementation("org.springdoc:springdoc-openapi-webmvc-core:1.5.11")
 //    // TODO spring securityを有効にしたら使う
     implementation("org.springdoc:springdoc-openapi-security:1.5.10")
     implementation("org.springdoc:springdoc-openapi-kotlin:1.5.10")
