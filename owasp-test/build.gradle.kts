@@ -1,10 +1,10 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    id("org.springframework.boot") version "2.4.5"
+    id("org.springframework.boot") version "2.5.5"
     id("io.spring.dependency-management") version "1.0.11.RELEASE"
-    kotlin("jvm") version "1.4.32"
-    kotlin("plugin.spring") version "1.4.32"
+    kotlin("jvm") version "1.5.31"
+    kotlin("plugin.spring") version "1.5.31"
 }
 
 group = "com.example"
@@ -21,13 +21,11 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect")
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
-
-    implementation("org.springdoc:springdoc-openapi-ui:1.5.7")
-    implementation("org.springdoc:springdoc-openapi-webmvc-core:1.5.7")
+    implementation("org.springdoc:springdoc-openapi-ui:1.5.11")
+    implementation("org.springdoc:springdoc-openapi-webmvc-core:1.5.11")
 //    // TODO spring securityを有効にしたら使う
-    implementation("org.springdoc:springdoc-openapi-security:1.5.7")
-    implementation("org.springdoc:springdoc-openapi-kotlin:1.5.7")
-
+    implementation("org.springdoc:springdoc-openapi-kotlin:1.5.11")
+    implementation("org.springdoc:springdoc-openapi-security:1.5.11")
     implementation("org.springframework.boot:spring-boot-starter-security")
 }
 
