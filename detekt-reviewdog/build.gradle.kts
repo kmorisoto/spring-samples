@@ -5,6 +5,7 @@ plugins {
     id("io.spring.dependency-management") version "1.0.11.RELEASE"
     kotlin("jvm") version "1.5.31"
     kotlin("plugin.spring") version "1.5.31"
+    id("io.gitlab.arturbosch.detekt").version("1.18.1")
 }
 
 group = "com.example"
@@ -27,6 +28,12 @@ tasks.withType<KotlinCompile> {
         freeCompilerArgs = listOf("-Xjsr305=strict")
         jvmTarget = "11"
     }
+}
+
+// Kotlin DSL
+tasks.withType<io.gitlab.arturbosch.detekt.Detekt>().configureEach {
+    // Target version of the generated JVM bytecode. It is used for type resolution.
+    jvmTarget = "11"
 }
 
 tasks.withType<Test> {
