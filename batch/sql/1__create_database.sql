@@ -1,0 +1,2 @@
+CREATE SCHEMA batch;
+CREATE SCHEMA batch2;
