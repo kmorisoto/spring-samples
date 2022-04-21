@@ -1,0 +1,9 @@
+version: '2'
+services:
+  app:
+    image: bootbuildimageargs:0.0.1-SNAPSHOT
+    environment:
+      TZ: Asia/Tokyo
+      MESSAGE: now
+    ports:
+      - "8080:8080"
