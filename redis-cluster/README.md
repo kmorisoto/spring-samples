@@ -1,8 +1,11 @@
 ```shell
 docker compose build --build-arg "redis_version=7.0.5" redis-cluster
+docker compose up -d
 ```
 
 ---
+
+以下メモ
 
 https://redis.io/docs/manual/scaling/
 
