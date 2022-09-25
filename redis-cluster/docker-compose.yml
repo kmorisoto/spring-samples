@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  redis-cluster:
+    image: grokzen/redis-cluster:latest
+    ports:
+      - "7000-7005:7000-7005"
+    environment:
+      - "INITIAL_PORT=7000"
+      - "REDIS_CLUSTER_IP=0.0.0.0"
+      - "IP=0.0.0.0"
+      - "BIND_ADDRESS=0.0.0.0"
