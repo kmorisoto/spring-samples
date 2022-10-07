@@ -1,0 +1,5 @@
+spring:
+  cache:
+    cache-names: "books"
+    caffeine:
+      spec: "maximumSize=2,expireAfterWrite=4s"

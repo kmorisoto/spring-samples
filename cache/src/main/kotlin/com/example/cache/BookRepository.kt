@@ -1,5 +1,7 @@
 package com.example.cache
 
+import com.github.benmanes.caffeine.cache.Caffeine
+import com.github.benmanes.caffeine.cache.CaffeineSpec
 import org.springframework.cache.annotation.Cacheable
 import org.springframework.stereotype.Component
 
