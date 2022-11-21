@@ -22,7 +22,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     implementation("org.springdoc:springdoc-openapi-ui:1.5.11")
-    implementation("org.springdoc:springdoc-openapi-webmvc-core:1.5.11")
+    implementation("org.springdoc:springdoc-openapi-webmvc-core:1.6.13")
 //    // TODO spring securityを有効にしたら使う
     implementation("org.springdoc:springdoc-openapi-kotlin:1.5.11")
     implementation("org.springdoc:springdoc-openapi-security:1.5.12")
