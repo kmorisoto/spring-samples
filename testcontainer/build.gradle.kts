@@ -27,7 +27,7 @@ dependencies {
     testImplementation("org.testcontainers:junit-jupiter")
     testImplementation("org.testcontainers:postgresql")
 
-    implementation("io.github.serpro69:kotlin-faker:1.8.0-rc.0")
+    implementation("io.github.serpro69:kotlin-faker:1.16.0")
 }
 
 dependencyManagement {
