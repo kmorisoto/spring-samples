@@ -1,0 +1,3 @@
+DefaultConfigurationCustomizerを使ってjOOQのConfigurationをカスタマイズ
+
+JooqAutoConfigurationのconfigurationCustomizers経由で設定される
