@@ -23,7 +23,7 @@ dependencies {
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 
     implementation("com.github.ben-manes.caffeine:caffeine")
-    rewrite("org.openrewrite.recipe:rewrite-spring:4.30.0")
+    rewrite("org.openrewrite.recipe:rewrite-spring:4.36.0")
 }
 
 tasks.withType<KotlinCompile> {
