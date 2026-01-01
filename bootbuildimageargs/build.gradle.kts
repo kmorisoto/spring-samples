@@ -21,7 +21,7 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 
-    compileOnly("com.datadoghq:dd-java-agent:0.99.0")
+    compileOnly("com.datadoghq:dd-java-agent:0.115.1")
 }
 
 tasks.withType<KotlinCompile> {
